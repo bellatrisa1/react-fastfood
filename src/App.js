@@ -10,16 +10,12 @@ import Menu from "./components/Menu";
 function App() {
   return (
     <div className="App">
-      <main>
-        <Header />
-        <Hero />
-
-        <About />
-        <Menu />
-        <Hero />
-
-        <Contact />
-      </main>
+      <Header />
+      <Hero />
+      <About />
+      <Menu />
+      <Hero />
+      <Contact />
 
       <footer className="footer">
         <div className="container">
